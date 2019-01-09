@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900');
 .App {
   text-align: center;
-  background-color: orangered;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -10,4 +9,13 @@
   letter-spacing: .5em;
   font-weight: 700;
   height: 4em;
+  background-color: orangered;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+  background-color: #FEFAF1;
+  grid-gap: 10px;
 }
